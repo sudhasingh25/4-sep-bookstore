@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+
+
+#headeritems{
+	display: table;
+}
+
+#headeritems div{
+	display:table-cell;
+	padding-right:20px;
+}
+
+
+#headeritems a:link{
+	font-size:larger;	
+}
+
+a:link{
+	color:cornflowerBlue;
+	text-decoration:none;
+}
+
+a:visited{
+	color:visited;
+}
+
+a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+a:active{
+	color:red;
+}
+
+.pageheading{
+	color:darkblue;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,td{
+	padding:8px;
+}
+
+th{
+	background:darkblue;
+	color:cornsilk;
+	font-size:larger;
+}
+
+table.form{
+	border:0px;
+	padding:4px;
+	align:center;
+	
+}
+
+
+
+button{
+	padding:6px;
+	border-radius: 5px;
+}
+
+button[type=submit]{
+	font-weight: bold;
+}
+
+input{
+	border:1px solid;
+	height:20px;
+	border-radius: 5px;
+	border-color: green;
+	
+}
+
+button:hover{
+	background-color: white;
+	color:green;
+}
+
+.error{
+	font-style: italic;
+	color:red;
+	margin:7px;
+	font-weight: 3px;
+}
+
+div.center{
+	text-align: center;
+	align:center;
+}
+
+div.book{
+	 border:0px;
+	 width:80%;
+}
